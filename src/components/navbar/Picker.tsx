@@ -9,7 +9,7 @@ import React from 'react'
 
 const Picker = () => {
     return (
-        <div className="mr-24 flex">
+        <div className="flex">
             <span className="mr-2">🇺🇸</span>
             <span>English</span>
             <Popover>

@@ -72,6 +72,16 @@ const config = {
                 'accordion-down': 'accordion-down 0.2s ease-out',
                 'accordion-up': 'accordion-up 0.2s ease-out',
             },
+            container: {
+                center: true,
+                padding: {
+                    DEFAULT: '0.5rem',
+                    sm: '2rem',
+                    lg: '4rem',
+                    xl: '5rem',
+                    '2xl': '6rem',
+                },
+            },
         },
     },
     plugins: [require('tailwindcss-animate')],
